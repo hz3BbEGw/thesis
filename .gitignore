@@ -1,0 +1,112 @@
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Datasets and generated split data
+/data/
+/dataset/
+/datasets/
+DPFR-recsys-evaluation/dataset/
+DPFR-recsys-evaluation/datasets/
+**/preproc_data/output/
+**/train_val_test/
+**/train_val_test_before_remove_train/
+
+# Logs and experiment outputs
+log/
+logs/
+log_tensorboard/
+runs/
+tensorboard/
+bestparam/
+mcda_results/
+
+# Local LaTeX thesis template/output
+latex_bsc_thesis_template_2025_CS/
+
+# Generated analysis/result directories
+*.csv
+corr_analysis/results/
+dfpr-analysis/results/
+cluster/best_struct/
+cluster/results/
+cluster/saved
+cluster/struct
+eval/MME/
+eval/base/
+eval/joint/
+pareto/result/
+reranking/MME/
+reranking/joint/
+reranking/log/
+reranking/rerank_struct/
+reranking/result/
+
+# Saved models, checkpoints, and serialized artifacts
+saved/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.onnx
+
+# Archives and compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Generated images/media
+corr_analysis/plots/*
+!corr_analysis/plots/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.pdf
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc

@@ -1,0 +1,84 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Dataset and split data
+/dataset/
+/train_val_test/
+/train_val_test_before_remove_train/
+
+# Logs and experiment outputs
+log/
+logs/
+log_tensorboard/
+runs/
+wandb/
+tensorboard/
+bestparam/
+experiments/.DS_Store
+
+# Generated evaluation, Pareto, cluster, and reranking outputs
+cluster/best_struct/
+cluster/results/
+cluster/saved
+cluster/struct
+eval/MME/
+eval/base/
+eval/joint/
+pareto/result/
+reranking/MME/
+reranking/joint/
+reranking/log/
+reranking/rerank_struct/
+reranking/result/
+
+# Saved models, checkpoints, and serialized artifacts
+saved/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.onnx
+
+# Archives and compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Generated images/media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.pdf
